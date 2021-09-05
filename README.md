@@ -1,2 +1,6 @@
-# Java2
-This is for learning Java
+Still it's easy, beacause Java and C++ are very similar, really
+|
+|
+|
+|
+Well, bye
