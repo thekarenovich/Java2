@@ -14,8 +14,8 @@ public class Main{
         Person bob = new Person(); //вызов конструтокра
         
         tom.displayId();
-        bob.displayId();
-        System.out.printf("Main: %d \n", tom.counter); 
+        Person.displayId();
+        System.out.printf("Main: %d \n", bob.counter); 
         System.out.printf("Main: %d \n", Person.counter);
          
         // изменяем Person.counter
