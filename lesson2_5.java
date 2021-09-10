@@ -1,6 +1,7 @@
 // статическое поле или метод: к нему можно обращаться через имя класса, а его фишка в том, что он общий на всех
 // прототип глобальной переменной в python
 // для всех объектов сейчас поле counter общее
+// в статическом методе статическое поле
 
 
 import java.lang.System.*;
@@ -37,7 +38,7 @@ class Person{
         counter++;
     }
     
-    public void displayId(){
+    public static void displayId(){
      
         System.out.printf("Person: %d \n", counter);
     }
