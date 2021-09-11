@@ -8,6 +8,8 @@ public class Main{
     public static void main(String[] args) {
              
         Employee sam = new Employee("Sam", "Leman Brothers");
+        //Person sam = new Employee("Sam", "Leman Brothers");
+        //можно писать и так, т.к. Employee - наследник Person
         sam.display();
     }
 }
