@@ -11,3 +11,5 @@ Chapter 1
 5th lesson - массивы и матрицы
 
 6th lesson - методы
+
+7th lesson - сравнение строк
