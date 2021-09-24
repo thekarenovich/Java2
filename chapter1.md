@@ -13,3 +13,5 @@ Chapter 1
 6th lesson - методы
 
 7th lesson - сравнение строк
+
+8th lesson - математика
