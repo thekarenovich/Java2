@@ -15,3 +15,5 @@ Chapter 1
 7th lesson - сравнение строк
 
 8th lesson - математика
+
+9th lesson - строки
