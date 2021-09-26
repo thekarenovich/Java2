@@ -1,4 +1,5 @@
-import java.util.Arrays;
+import java.util.Arrays; // для методов массива
+
 class Main {
     public static void main(String[] args) {
         
