@@ -17,3 +17,5 @@ Chapter 1
 8th lesson - математика
 
 9th lesson - строки
+
+10th lesson - снова массивы
