@@ -1,3 +1,5 @@
+// Посчитать количество цифр и сумму цифр числа 
+
 import java.util.Scanner;
 
 public class Main {
