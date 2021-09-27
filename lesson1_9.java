@@ -51,12 +51,13 @@ public class Main {
             System.out.println(human);
         }
             
-            //Определение индекса символа в строке
+        //Определение индекса символа в строке
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         System.out.println(alphabet.indexOf('A')); // 0
         System.out.println(alphabet.indexOf('K')); // 10
         System.out.println(alphabet.indexOf('Z')); // 25
         System.out.println(alphabet.indexOf('Я')); // -1
+   
             
     //класс Human для примера 2
     static class Human {
