@@ -1,3 +1,10 @@
-Для строк - length()
+В Java Cтроки - не Массивы 
 
-Для массива - length
+Есть строка str и массив array
+
+Для массива - array.length
+Для строк - str.length()
+
+Для массива - array[i]
+Для строк - str.charAt(i)
+
