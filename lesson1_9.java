@@ -57,6 +57,13 @@ public class Main {
         System.out.println(alphabet.indexOf('K')); // 10
         System.out.println(alphabet.indexOf('Z')); // 25
         System.out.println(alphabet.indexOf('Я')); // -1
+    
+    
+         //Преобразование строки в строчный массив 
+         char[] result = alphabet.toCharArray();
+         for (int i = 0; i < result.length; i++)
+            System.out.println("Element [" + i + "]: " + result[i]);
+
    
             
     //класс Human для примера 2
