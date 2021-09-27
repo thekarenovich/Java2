@@ -31,7 +31,8 @@ public class Main {
 
         //А мы хотим, чтобы, допустим 97, было строкой, а не числом
         System.out.println(String.valueOf(97) + " - это строка ))"); // 97 - это строка ))
-        System.out.println(String.valueOf(true) + " - это строка :3"); // true - это строка :3
+        // или так
+        System.out.println(Double.toString(12.55) + " - это строка :3"); // 12.55 - это строка :3
 
         // Преобразование строк в другие типы данных
         int i = Integer.parseInt("12");
