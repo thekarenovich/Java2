@@ -1,4 +1,5 @@
-import java.util.Scanner;
+//Посчитать количество символов в строке
+
 public class Main {
     
  public static void main(String[] args) {
