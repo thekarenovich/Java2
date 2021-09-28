@@ -5,6 +5,10 @@ public class Main {
     public static void main(String[] args) {
 
         //Про сравнение строк написано в lesson1_7
+        
+        //Строчные и прописные буквы
+        System.out.println("Hello World".toLowerCase());
+		System.out.println("Hello World".toUpperCase());
 
         //Сложение строк
         String day = "День";
