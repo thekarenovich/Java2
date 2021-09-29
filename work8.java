@@ -1,3 +1,5 @@
+//Вывести сумму первых 100 простых чисел
+//1 - не простое число ))
 import java.util.Scanner;
 
 public class Main {
