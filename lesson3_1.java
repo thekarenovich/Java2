@@ -4,7 +4,7 @@ public class Main{
     public static void main(String[] args) {
 
         ArrayList<String> people = new ArrayList<String>();
-        
+
         // добавим в список ряд элементов
         people.add("Tom");
         people.add("Alice");
@@ -45,5 +45,15 @@ public class Main{
         for(String person : people){
             System.out.println(person);
         }
+
+        System.out.println();
+        
+        // индекс первого вхождения элемента в списке
+        System.out.println(people.indexOf("Alice"));
+
+        people.set(2,"Alice");
+
+        // индекс последнего вхождения элемента в списке
+        System.out.println(people.lastIndexOf("Alice"));
     }
 }
