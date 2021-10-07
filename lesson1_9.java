@@ -73,6 +73,16 @@ public class Main {
          char[] result = alphabet.toCharArray();
          for (int i = 0; i < result.length; i++)
             System.out.println("Element [" + i + "]: " + result[i]);
+	
+	//Замена строки
+	String sss = "Hello world";
+	String replStr1 = sss.replace('l', 'd'); // Heddo wordd
+	String replStr2 = sss.replace("Hello", "Bye"); // Bye world
+	
+	//Обрезка строки
+	String ss = "Hello world";
+	String substr1 = ss.substring(6); // world
+	String substr2 = ss.substring(3,5); //lo
 
    
             
