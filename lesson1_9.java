@@ -15,6 +15,12 @@ public class Main {
         String and = "и";
         String night = "Ночь";
         String dayAndNight = "\n" + day + " " + and + " " + night;
+	// объединить строки можно ещё так:
+	    // String str1 = "Java";
+	    // String str2 = "Hello";
+	    // str2 = str2.concat(str1); // HelloJava
+	    // или так
+	    // String str3 = String.join(" ", str2, str1); // Hello Java
         System.out.println(dayAndNight);
 
         //toString
