@@ -1,59 +1,32 @@
-import java.util.ArrayList;
+// Работа с Датой
 
-public class Main{
-    public static void main(String[] args) {
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 
-        ArrayList<String> people = new ArrayList<String>();
+public class Main {
+    public static void main (String[]args){
 
-        // добавим в список ряд элементов
-        people.add("Tom");
-        people.add("Alice");
-        people.add("Kate");
-        people.add("Sam");
+        LocalDate date = LocalDate.now(); // получаем текущую дату
+        System.out.println(date);
+        int year = date.getYear();
+        int month = date.getMonthValue();
+        int dayOfMonth = date.getDayOfMonth();
+        System.out.printf("%d.%d.%d \n", dayOfMonth, month, year);
 
-        for(String person : people){
-            System.out.println(person);
-        }
-        System.out.println();
+        DayOfWeek dayOfWeek = date.getDayOfWeek();
+        System.out.println(dayOfWeek + "\n");
 
-        people.add(1, "Bob"); // добавляем элемент по индексу 1
-        // первым был Alice, но его сдвинули, НЕ ЗАМЕНИЛИ
-
-        System.out.println(people.get(1));// получаем первый элемент из списка
-        people.set(1, "Robert"); // замена(установка) первого элемента в списке
-
-        // вывод списка и размер списка
-        System.out.printf("ArrayList has %d elements \n\n", people.size());
-        for(String person : people){
-            System.out.println(person);
-        }
-
-        System.out.println();
-
-        // проверяем наличие элемента
-        if(people.contains("Tom")){ System.out.println("ArrayList contains Tom"); }
-
-
-        // удаление конкретного элемента
-        people.remove("Robert");
-
-        // удаление по индексу
-        people.remove(0);
-
-        System.out.println();
-
-        for(String person : people){
-            System.out.println(person);
-        }
-
-        System.out.println();
         
-        // индекс первого вхождения элемента в списке
-        System.out.println(people.indexOf("Alice"));
+        
+        LocalDate date1 = LocalDate.of(1914, 7, 28); // создание даты
+        date1 = date1.plusYears(4);
+        date1 = date1.plusMonths(3);
+        date1 = date1.plusDays(14);
+        System.out.println(date1);   // 1918-11-11
 
-        people.set(2,"Alice");
-
-        // индекс последнего вхождения элемента в списке
-        System.out.println(people.lastIndexOf("Alice"));
+        date1 = date1.minusMonths(10);
+        date1 = date1.minusDays(3);
+        System.out.println(date1);   // 1918-01-08
+        
     }
 }
