@@ -1,6 +1,6 @@
 Content Java2:
 
-Chapter1, Chapter2 - теория на примерах кода
+Chapter1, Chapter2, Chapter3 - теория на примерах кода
 
 Work - решения различных задач
 
