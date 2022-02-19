@@ -89,4 +89,3 @@ class CalculatorPanel extends JPanel {
             }
         }
 
-// inst: thekhachik
