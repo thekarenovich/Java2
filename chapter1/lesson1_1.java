@@ -5,10 +5,10 @@ public class Main{ //класс Main (главный класс, т.к. в нё�
 
 	public static void main(String[] massiv) { //функция main (главная функция)
 
-		byte var1;
-		short var2 = 2;
-		int var3 = 300;
-		long var4 = 444444;
+		byte var1;  // 1 байт
+		short var2 = 2;  // 2 байта
+		int var3 = 300;  // 4 байта
+		long var4 = 444444;  // 8 байт
 
 		float var5 = 5.9f;
 		double var6 = 90.2932d;
